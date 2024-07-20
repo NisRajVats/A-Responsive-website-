@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    width: 100%;
+}
+
+nav{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+}
+
+nav img{
+    height: 130px;
+    width: 174px;
+    margin: 120px 130px;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 200px 10px 20px;
+}
+
+ul li{
+    list-style-type: none;
+    margin: 20px;
+}
+
+.navlink .sign{
+    height: 35px;
+    width: 70px;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    line-height: 28px;
+}
+
+.second{
+    display:flex;
+    justify-content: space-between;
+
+}
+
+.text h1{
+    font-size: 50px;
+    color: black;
+    margin: 90px 0 0 180px;
+}
+
+.text p{
+    margin: 10px 0 0 180px;
+    font-size: 18px;
+}
+
+.video {  
+    align-items: center; /* Vertically center the video */
+    margin: 90px 330px 0 50px; 
+    
+}
+.video video{
+    max-height: 400px;
+    max-width: 400px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.button{
+    background-color: #007aff;
+    height: 64px;
+    width: 200px;
+    list-style-type: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    border-radius: 32px;
+    margin: 40px 0 0 180px;
+    padding: 0 36px;
+    line-height: 64px;
+    border: 2px solid blue;
+
+}
+
+.headfoot  ul{
+    display: flex;
+    justify-content: center;
+    margin-left: 130px;
+}
+
+.headfoot ul li{
+    margin: 30px 60px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+hr{
+    max-width: 72%;
+    margin-left: 180px;
+}
+
+
+/*Third*/
+
+.Third{
+    display:flex;
+    justify-content:space-around;
+
+}
+
+.text3{
+    margin: 100px 200px 0 150px;
+    
+}
+.text3 h1{
+    font-size: 30px;
+    color: black;
+}
+
+.text3 p{
+    font-size: 18px;
+}
+
+.video3 {  
+    display: inline-block;
+    margin: 100px 0 0 230px;
+    align-items: center;
+    
+}
+.video3 video{
+    max-height: 400px;
+    max-width: 400px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.button3{
+    background-color: #007aff;
+    height: 64px;
+    width: 200px;
+    list-style-type: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    border-radius: 32px;
+    margin: 40px 0 0 140px;
+    padding: 0 36px;
+    line-height: 64px;
+    border: 2px solid blue;
+
+}
+
+
+/*Fourth*/
+
+
+.Fourth{
+    display:flex;
+    justify-content: space-between;
+
+}
+
+.text4 h1{
+    font-size: 30px;
+    color: black;
+    margin: 100px 0 0 180px;
+}
+
+.text4 p{
+    margin: 10px 0 0 180px;
+    font-size: 18px;
+}
+
+.video4 {  
+    align-items: center; /* Vertically center the video */
+    margin: 100px 200px 0 150px; 
+        
+}
+.video4 video{
+    max-height: 400px;
+    max-width: 400px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.button4{
+    background-color: #007aff;
+    height: 64px;
+    width: 200px;
+    list-style-type: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    border-radius: 32px;
+    margin: 40px 0 0 190px;
+    padding: 0 36px;
+    line-height: 64px;
+    border: 2px solid blue;
+
+}
+
+/*bottom*/
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(rgba(163, 201, 224, 0.7), rgba(137, 202, 243, 0.7));
+    margin: 180px;
+    border-radius: 30px;
+    height: 450px;
+}
+
+.textb{
+    margin: 20px ;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+
+.textb h1{
+    font-size: 30px;
+    color: black;
+    
+}
+
+.textb p{
+    font-size: 18px;
+    margin: 15px 5px ;
+}
+
+.image {  
+    align-items: right; /* Vertically center the video */
+    margin: 48px 0 30 150px; 
+    
+}
+.image img{
+    max-height: 650px;
+    max-width: 650px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.footer{
+    height: 50vh;
+    text-align: center;
+}
+
+.footer h1{
+    font-size: 60px;
+    
+}
+
+.footer p{
+    font-size: 20px ;
+}
+
+
+
